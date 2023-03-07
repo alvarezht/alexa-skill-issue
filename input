@@ -1,0 +1,86 @@
+{
+    "version": "1.0",
+    "response": {
+        "shouldEndSession": false,
+        "directives": [
+            {
+                "type": "Dialog.Delegate",
+                "updatedIntent": {
+                    "name": "BalanceSaldosIntent",
+                    "confirmationStatus": "NONE",
+                    "slots": {
+                        "fecha": {
+                            "name": "fecha",
+                            "confirmationStatus": "NONE"
+                        },
+                        "opcionUsuario": {
+                            "name": "opcionUsuario",
+                            "value": "1",
+                            "confirmationStatus": "NONE"
+                        },
+                        "clienteOUsuario": {
+                            "name": "clienteOUsuario",
+                            "confirmationStatus": "NONE"
+                        },
+                        "valorBusqueda": {
+                            "name": "valorBusqueda",
+                            "value": "26484269",
+                            "confirmationStatus": "NONE",
+                            "source": "USER",
+                            "slotValue": {
+                                "type": "Simple",
+                                "value": "26484269"
+                            }
+                        },
+                        "tipoBusqueda": {
+                            "name": "tipoBusqueda",
+                            "value": "identificación tributaria",
+                            "confirmationStatus": "NONE",
+                            "source": "USER",
+                            "resolutions": {
+                                "resolutionsPerAuthority": [
+                                    {
+                                        "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18.KPTipoBusquedaSlot",
+                                        "status": {
+                                            "code": "ER_SUCCESS_MATCH"
+                                        },
+                                        "values": [
+                                            {
+                                                "value": {
+                                                    "name": "identificación tributaria",
+                                                    "id": "NIT"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "slotValue": {
+                                "type": "Simple",
+                                "value": "identificación tributaria",
+                                "resolutions": {
+                                    "resolutionsPerAuthority": [
+                                        {
+                                            "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18.KPTipoBusquedaSlot",
+                                            "status": {
+                                                "code": "ER_SUCCESS_MATCH"
+                                            },
+                                            "values": [
+                                                {
+                                                    "value": {
+                                                        "name": "identificación tributaria",
+                                                        "id": "NIT"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
