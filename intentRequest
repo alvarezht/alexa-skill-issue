@@ -1,0 +1,173 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.1e60bfd7-e40e-4d17-8750-f8c37fd8c5ae",
+        "application": {
+            "applicationId": "amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18"
+        },
+        "attributes": {
+            "idEmpresa": "1",
+            "stepsIntent": "{\"fecha\":false,\"opcionUsuario\":false,\"clienteOUsuario\":false,\"valorBusqueda\":false,\"tipoBusqueda\":true}",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbGV4YSIsInN1YiI6ImhhbHZhcmV6IiwianRpIjoiOGRjZGM0YTEtODk5NC00N2U0LWI3NWUtYjk0MTdjYjc4NmIwIiwiVXN1YXJpbyI6ImhhbHZhcmV6IiwiQ2xpZW50ZSI6IjkyNDdjZjg1LTY2YWItNDhjOC04NTUxLTliZTkwOGMzMGQ5NyIsIkZlY2hhVmVuY2ltaWVudG8iOiIzLzcvMjAyMyAxMTowMTozMyBBTSIsImV4cCI6MTY3ODIyNzM2MH0.DLNTC10jZEu-yg9WhshWODUrpXccX1uAmeQU1B8LKTc",
+            "idGrupoEmpresa": "7"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AG6OLZG5WWX5634X5FF7E2TT37SBN4E2BXV7Q5S54KRPRWZEM5TZBJE45DWCRDTIIBLXIGFPDY6RTTMHANEKY5TDDIGKDWQCAWSPIHZS6DYEZHDKX6MPFT34XP6VC3KOY3BSVYV3GIJV4ABU5UIVM67JK4HENZH434CTKYUZ4AIFFNDFLJU6TI63MT2JWDBSG24YFLVKZ6OL6XA"
+        }
+    },
+    "context": {
+        "Viewports": [
+            {
+                "type": "APL",
+                "id": "main",
+                "shape": "RECTANGLE",
+                "dpi": 213,
+                "presentationType": "STANDARD",
+                "canRotate": false,
+                "configuration": {
+                    "current": {
+                        "mode": "HUB",
+                        "video": {
+                            "codecs": [
+                                "H_264_42",
+                                "H_264_41"
+                            ]
+                        },
+                        "size": {
+                            "type": "DISCRETE",
+                            "pixelWidth": 1280,
+                            "pixelHeight": 800
+                        }
+                    }
+                }
+            }
+        ],
+        "Viewport": {
+            "experiences": [
+                {
+                    "arcMinuteWidth": 346,
+                    "arcMinuteHeight": 216,
+                    "canRotate": false,
+                    "canResize": false
+                }
+            ],
+            "mode": "HUB",
+            "shape": "RECTANGLE",
+            "pixelWidth": 1280,
+            "pixelHeight": 800,
+            "dpi": 213,
+            "currentPixelWidth": 1280,
+            "currentPixelHeight": 800,
+            "touch": [
+                "SINGLE"
+            ],
+            "video": {
+                "codecs": [
+                    "H_264_42",
+                    "H_264_41"
+                ]
+            }
+        },
+        "Extensions": {
+            "available": {
+                "aplext:backstack:10": {}
+            }
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AG6OLZG5WWX5634X5FF7E2TT37SBN4E2BXV7Q5S54KRPRWZEM5TZBJE45DWCRDTIIBLXIGFPDY6RTTMHANEKY5TDDIGKDWQCAWSPIHZS6DYEZHDKX6MPFT34XP6VC3KOY3BSVYV3GIJV4ABU5UIVM67JK4HENZH434CTKYUZ4AIFFNDFLJU6TI63MT2JWDBSG24YFLVKZ6OL6XA"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AGC4NWKXDNXIMIP4TBR7L7YNUY4E5BMAEQ6HSQCUWYXHT2LMVJHIGAVH43VH45UCTAHUJ7OBQ6PGKVZ4H3TV3Q2M263CT4D32AFXISKEKR4UGRQ72I65XNYLSIMPXSUBQVUPP36QN4QCCYQDQFY5FCPR7SHC2LDODEBF2Q3TGOUIIIZLPZOAY",
+                "supportedInterfaces": {}
+            },
+            "apiEndpoint": "https://api.amazonalexa.com",
+            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjVkZjg2N2VmLWY5NDktNDU3OS04NmU1LTExY2ViMTA5NGExOCIsImV4cCI6MTY3ODIwNjA3OCwiaWF0IjoxNjc4MjA1Nzc4LCJuYmYiOjE2NzgyMDU3NzgsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFBcXRtK0ZDdTNLVW9jbm5YcktWQkpVS2dFQUFBQUFBQUFVU0pVOWRLWWU1dGR3SUhPWlo4bi9YaGluclNyUGhkclU0SXNuNlpodGtmVTBhYy9DZmxaMjdlUG1iVGV0NWFFbFgydEg4a1ZGRmJsTk9iMXFjMFJFSVN3TW9HcEN4ek1oMUczbEVKQzFZb3BXZFQwUkxDL0NmalJCcTRLQjdub1NVc0ROLy83NXUrbXhCVy94dzZLdC94bi9YajB3U0lsVklqMHltYWt3OWhvOG9iNDUrV1MzN2RUVVBRdTh1L1IrakRQNVVqeGx0OURueHZHL0pjUnhsMFFLNzdIVGpCMzhWMEgzaHVzaUNxcWw0bkZWUWMzcVRTQ09QUU9Dajk1dUNON21Pakd4b2dpZjI1VnE3OCtaZUM4cWRweS94ZzRNQ0YwL0ZEM0Fvd1Q1Ums3MTRVVENFR3hjNWR5Nk03bWk5UlJrR3VFNmZtY2YxN25zZUVjZnBHUmhKTHlnZVZtdDJTL0JEY21mMWdnSW9zK0xKQ0tSUGpGcUhiN01HSy9iYmdvU3gycXNlMDFPIiwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFHQzROV0tYRE5YSU1JUDRUQlI3TDdZTlVZNEU1Qk1BRVE2SFNRQ1VXWVhIVDJMTVZKSElHQVZINDNWSDQ1VUNUQUhVSjdPQlE2UEdLVlo0SDNUVjNRMk0yNjNDVDREMzJBRlhJU0tFS1I0VUdSUTcySTY1WE5ZTFNJTVBYU1VCUVZVUFAzNlFONFFDQ1lRRFFGWTVGQ1BSN1NIQzJMRE9ERUJGMlEzVEdPVUlJSVpMUFpPQVkiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BRzZPTFpHNVdXWDU2MzRYNUZGN0UyVFQzN1NCTjRFMkJYVjdRNVM1NEtSUFJXWkVNNVRaQkpFNDVEV0NSRFRJSUJMWElHRlBEWTZSVFRNSEFORUtZNVRERElHS0RXUUNBV1NQSUhaUzZEWUVaSERLWDZNUEZUMzRYUDZWQzNLT1kzQlNWWVYzR0lKVjRBQlU1VUlWTTY3Sks0SEVOWkg0MzRDVEtZVVo0QUlGRk5ERkxKVTZUSTYzTVQySldEQlNHMjRZRkxWS1o2T0w2WEEifX0.hxDWIIfmXEBfW9gCRVkUqD1fcpJtuchpmum0PuVFJOeUYdH44tVlM4kEI54vVNSI_3HpxA9OfX31oO11v3CJO0-ajc3Qifx1MGEjPO-W6kQhAdA-QAbwiDB1sit50flv1AnCUoG9BKWw04uom0DYH9jHXMq9ji9QNn4FshEzpdmivQh0lo66Hsha2PsUe7j5QPZ5yLZ2aaHsyBos4I50StYdHsmJHawQ9khZNi_k8QjfXUFGSbUyeHXqv9aFtdRcIHLpPZFkb622Ch2gRYA5BCICa2zg9Vq_WpZYd5iPLx8fXp7BJzd_J2I28oX1spEMVgjFK-PdWemBpgBl5mFrEQ"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.be193dba-25fe-4811-b8ac-520994551d49",
+        "locale": "es-US",
+        "timestamp": "2023-03-07T16:16:18Z",
+        "intent": {
+            "name": "BalanceSaldosIntent",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "fecha": {
+                    "name": "fecha",
+                    "confirmationStatus": "NONE"
+                },
+                "opcionUsuario": {
+                    "name": "opcionUsuario",
+                    "confirmationStatus": "NONE"
+                },
+                "clienteOUsuario": {
+                    "name": "clienteOUsuario",
+                    "confirmationStatus": "NONE"
+                },
+                "valorBusqueda": {
+                    "name": "valorBusqueda",
+                    "value": "26484269",
+                    "confirmationStatus": "NONE",
+                    "source": "USER",
+                    "slotValue": {
+                        "type": "Simple",
+                        "value": "26484269"
+                    }
+                },
+                "tipoBusqueda": {
+                    "name": "tipoBusqueda",
+                    "value": "identificación tributaria",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18.KPTipoBusquedaSlot",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "identificación tributaria",
+                                            "id": "NIT"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE",
+                    "source": "USER",
+                    "slotValue": {
+                        "type": "Simple",
+                        "value": "identificación tributaria",
+                        "resolutions": {
+                            "resolutionsPerAuthority": [
+                                {
+                                    "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5df867ef-f949-4579-86e5-11ceb1094a18.KPTipoBusquedaSlot",
+                                    "status": {
+                                        "code": "ER_SUCCESS_MATCH"
+                                    },
+                                    "values": [
+                                        {
+                                            "value": {
+                                                "name": "identificación tributaria",
+                                                "id": "NIT"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "dialogState": "IN_PROGRESS"
+    }
+}
